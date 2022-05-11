@@ -33,7 +33,7 @@ z-index: -1;
   	border-radius: 10px;
 }
 
-
+/*RAINBOW*/
 
 #shadowBox {
   background-color: rgb(0, 0, 0);
@@ -44,9 +44,10 @@ z-index: -1;
 }
 
 
-*{
-	box-sizing: border-box;
-}
+
+
+
+
 
 img{ 
 
@@ -86,6 +87,7 @@ h1:hover{
 header{
 	text-align: center;
 }
+
 h1 { 
 	font-family : 'Josefin Sans';
 	color: ;
@@ -153,6 +155,7 @@ audio{
 
 
 
+
 h5:hover{
 
 color:  silver;
@@ -171,7 +174,8 @@ border-style : double;
 border-radius : 10px;
 text-align : center;
 font-weight: bold;
-width : 1300px;
+width : 1250px;
+height: 600px;
 /*margin-top : 50px;*/
 margin-left:auto;
 margin-right:auto;
@@ -204,7 +208,7 @@ a {
 
 a:hover {
 
-	color:  green;
+	color:  red;
 }
 
 a:focus {
@@ -227,7 +231,7 @@ div {
 }
 
 h3 {
-	
+
 	/*clear: both;*/
 	font-family: 'Josefin Sans';
 	font-size: 2em;
@@ -257,6 +261,19 @@ span {
 	margin-left: 30px
 }
 
+
+
+
+/*.mail {
+
+	font-size:  0.9em;
+}
+
+.mail1{
+
+font-size: 0.5em;
+}*/
+
 table {
 border-width : 8px;
 border-color : green;
@@ -281,6 +298,7 @@ td{
 	border: 1px black solid;
 	padding: 3px;
 }
+
 
 
 ul{
@@ -309,11 +327,11 @@ margin-right:auto;
 li {
 	list-style:  none;
 	display: block;
-	/*en bas, pour espacer les listIem de x% entre eux, mieux que word spacing */
+	/*en bas, pour espacer les listIem de 100% entre eux, mieux que word*/
 	margin: 30px; 
 }
 
-/*en bas, pour le sommaire à droite qui est aussi une liste, alors on lui met une classe .droite*/
+/*en bas, pour le sommaire à droite qui est aussi une liste, alors on lui met une classe*/
 .droite {
 	margin: 0px;
 }
