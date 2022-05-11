@@ -212,7 +212,7 @@ a:hover {
 }
 
 a:focus {
-	color: red;
+	color: green;
 }
 
 a: visited{
