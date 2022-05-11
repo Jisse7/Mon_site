@@ -44,47 +44,6 @@ z-index: -1;
 }
 
 
-/*pour les gros titres*/
-.rainbow {
-  text-align: center;
-  text-decoration: dashed underline overline ;
-  font-size: 5em;
-  /*font-family: monospace;*/
-  letter-spacing: 5px;
-  animation: colorRotate 0.8s linear 0s infinite;
-
-}
-/*pour les textes*/
-.rainbow2 {
-  text-align: center;
-  text-decoration: ;
-  font-size: 1.5em;
-  /*font-family: monospace;*/
-  letter-spacing: 5px;
-  animation: colorRotate 0.8s linear 0s infinite;
-  margin-top: 12px;
-}
-
-
-
-@keyframes colorRotate {
-  from {
-    color: #6666ff;
-  }
-  10% {
-    color: #0099ff;
-  }
-  50% {
-    color: #00ff00;
-  }
-  75% {
-    color: #ff3399;
-  }
-  100% {
-    color: #6666ff;
-  }
-}
-
 *{
 	box-sizing: border-box;
 }
@@ -189,27 +148,6 @@ audio{
 	top: 92.5%;
 }
 
-/*SOMMAIRE DE DROITE*/
-#menu {
-
-padding: 2px;
-border-width : 5px;
-border-color : green ;
-border-style : double;
-border-radius : 10px;
-text-align : left;
-
-/*width : 1400px;*/
-/*margin-top : -900px;*/	
-margin-left:auto;
-margin-right:20px;
-background-image:  url("../pictures/whitel.jpg");
-  position: fixed;
-  right: 0;
-  top: 31%;
-  width: 14em;
-  margin-top: 5em;
-}
 
 
 
@@ -322,30 +260,9 @@ span {
 
 
 
-/*.mail {
 
-	font-size:  0.9em;
-}
 
-.mail1{
 
-font-size: 0.5em;
-}*/
-
-table {
-border-width : 8px;
-border-color : green;
-border-style : double;
-border-radius : 10px;
-text-align : center;
-width : 1800px;
-height: 600px;
-/*margin-top : 50px;*/
-margin-left:auto;
-margin-right:auto;
-background: #FFFFFD;
-
-}
 
 .cc {
 	background-color: yellow;
