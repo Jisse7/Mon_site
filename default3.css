@@ -204,7 +204,7 @@ a {
 
 a:hover {
 
-	color:  red;
+	color:  green;
 }
 
 a:focus {
@@ -302,11 +302,11 @@ margin-right:auto;
 li {
 	list-style:  none;
 	display: block;
-	/*en bas, pour espacer les listIem de 100% entre eux, mieux que word*/
+	/*en bas, pour espacer les listIem de x% entre eux, mieux que word spacing */
 	margin: 30px; 
 }
 
-/*en bas, pour le sommaire à droite qui est aussi une liste, alors on lui met une classe*/
+/*en bas, pour le sommaire à droite qui est aussi une liste, alors on lui met une classe .droite*/
 .droite {
 	margin: 0px;
 }
