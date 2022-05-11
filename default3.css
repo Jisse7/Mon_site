@@ -293,6 +293,9 @@ background: #FFFFFD;
 	background-color: yellow;
 }
 
+.sun {
+	background-image: url('photofunky.gif');
+}
 
 td{
 	border: 1px black solid;
