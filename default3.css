@@ -91,7 +91,7 @@ header{
 h1 { 
 	font-family : 'Josefin Sans';
 	color: ;
-	font-size: 5em;
+	font-size: 30px;
 	
 	border: 3.2	px green solid;
 	border-radius: 15px;
@@ -112,7 +112,7 @@ h1 {
 
 /*ici pour page2.html*/
 h2 {
-	font-size: 5em;
+	font-size: 25px;
 	font-family: 'spaceAge';
 	text-align: center;
 /*	border: 10px green double;*/
