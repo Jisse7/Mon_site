@@ -316,7 +316,7 @@ li {
 /*POLICES*/
 @font-face {
 	font-family: 'spaceAge';
-	src: url('../src/spaceAge.ttf') format('truetype');
+	src: url('spaceAge.ttf') format('truetype');
 }
 
 /*SOMMAIRE INDEX+NAV*/
